@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2843064159697981947}
   - component: {fileID: 2843064159697981945}
   - component: {fileID: 2843064159697981946}
+  - component: {fileID: 1708189542975894965}
   m_Layer: 0
   m_Name: Middle Gold
   m_TagString: MiddleGold
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2843064159697981940}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.7, y: -2.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -99,3 +100,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.255
+--- !u!114 &1708189542975894965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2843064159697981940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f6a4c86532e84241a8821fbc6061dc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hook_Speed: 2
+  scoreValue: 10
